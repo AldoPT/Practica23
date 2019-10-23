@@ -35,6 +35,8 @@ public class Aerobia extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Productos de la Respiración Celular");
+        setFocusTraversalPolicyProvider(true);
+        setFocusable(false);
         setResizable(false);
 
         lblAerobiaT.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
